@@ -12,11 +12,14 @@ public class ArithmeticOperator {
 		int substract = firstNumber - secondNumber;
 		int mutiple = firstNumber * secondNumber;
 		int division = firstNumber/secondNumber;
+		int module = firstNumber%secondNumber;
+		
 		
 		System.out.println("The sum of two number "+ sum);
 		System.out.println("The difference of two number "+substract);
 		System.out.println("The product of two number "+mutiple);
 		System.out.println("The difference of two number "+division);
+		System.out.println("The module of two number "+module);
 	}
 
 }
